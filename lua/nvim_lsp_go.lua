@@ -49,7 +49,7 @@ local function apply_action(action)
   end
 end
 
-function formatting()
+local function formatting()
   local params = build_params()
 
   local result = request(
